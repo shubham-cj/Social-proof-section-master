@@ -113,7 +113,7 @@ main p {
     font-size: 12px;
 }
 
-@media (min-width: 1000px) {
+@media (min-width: 1400px) {
     body {
         min-height: 100vh;
     }
