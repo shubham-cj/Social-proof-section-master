@@ -4,20 +4,21 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    position: relative;
 }
 
 .bg-top-image {
     position: absolute;
     z-index: -1;
-    width: 100%;
-    top: 0px;
+    width: 100vw;
+    top: 0;
 }
 
 .bg-bottom-image {
     position: absolute;
     z-index: -1;
-    width: 100%;
-    bottom: 0px;
+    width: 100vw;
+    bottom: 0;
 }
 
 img {
@@ -28,7 +29,7 @@ img {
 body {
     display: flex;
     flex-direction: column;
-    min-height: fit-content;
+    /* min-height: fit-content; */
     background: #fff;
     font-family: "League Spartan";
 }
